@@ -1,0 +1,11 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# VS Code workspace files
+.vscode/
+*.code-workspace
