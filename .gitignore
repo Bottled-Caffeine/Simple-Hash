@@ -6,6 +6,10 @@ Desktop.ini
 __pycache__/
 *.py[cod]
 
+# PyInstaller
+build/
+dist/
+
 # VS Code workspace files
 .vscode/
 *.code-workspace
