@@ -3,9 +3,9 @@ import sys
 
 
 if sys.platform == "win32":
-    icon_path = "assets/icons/app/app.ico"
+    icon_path = "packaging/icon.ico"
 elif sys.platform == "darwin":
-    icon_path = "assets/icons/app/app.icns"
+    icon_path = "packaging/icon.icns"
 else:
     icon_path = None
 
@@ -43,6 +43,6 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    version='version_info.txt',
+    version='packaging/version_info.txt',
     icon=icon_path,
 )
